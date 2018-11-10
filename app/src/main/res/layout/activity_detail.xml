@@ -16,10 +16,10 @@
             android:layout_marginBottom="67dp" app:layout_constraintBottom_toTopOf="@+id/textView"/>
     <TextView
             android:text="TextView"
-            android:layout_width="142dp"
-            android:layout_height="39dp"
+            android:layout_width="329dp"
+            android:layout_height="45dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/textView" android:textAlignment="center" android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView"
-            android:layout_marginBottom="149dp"/>
+            android:layout_marginBottom="149dp" app:layout_constraintHorizontal_bias="0.509"/>
 </android.support.constraint.ConstraintLayout>
